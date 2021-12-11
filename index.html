@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Donate for a cause</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <div class="logo">
+                <h3>Jitas<span>Foundation</span>
+                </h3>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+
+            </ul>
+
+
+            <div class="content">
+                <h1>Donate for a noble cause</h1>
+                <p>Help us to help them with your support and well wishes.<br> Donate something to JitasFoundation.</p>
+                <div>
+                    <button type="button" id="button"><span></span>About us</button>
+                    <form>
+                        <script type="text/javascript">
+                            document.getElementById("button").onclick = function () {
+                                location.href = "about.html";
+                            };
+                        </script>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_IVq2KQk74dRfWc" async> </script>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
