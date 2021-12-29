@@ -9,6 +9,9 @@ body{
     display: flex;
     align-items: center;
     background-color: black;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 }
 .about-section{
     background: url(about_img.jpg) no-repeat left;
