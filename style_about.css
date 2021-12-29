@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content:center;
     background-color: black;
+    position:fixed;
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
