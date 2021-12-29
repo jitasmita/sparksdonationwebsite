@@ -11,16 +11,15 @@ body{
     justify-content:center;
     background-color: black;
     position:fixed;
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-
 }
 .about-section{
     background: url(about_img.jpg) no-repeat left;
     background-size: 55%;
     background-color: black;
     overflow: hidden;
-    padding:  0;
+    padding: 0px 0px;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .inner-container{
     width: 55%;
